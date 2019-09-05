@@ -9,9 +9,12 @@ Skipping acquire of configured file 'main/binary-arm64/Packages' as repository '
 so I have attempted to build the driver for ubuntu using https://wiki.centos.org/HowTos/BuildingKernelModules#head-d313bd351f90d4f25a2143b7bbcff73f927731f0
 
 DKMS make.log for aiy-voicebonnet-soundcard-0.1 for kernel 4.15.0-1044-raspi2 (aarch64)
+
 Thu Sep  5 01:01:37 UTC 2019
+
 make: Entering directory '/usr/src/linux-headers-4.15.0-1044-raspi2'
   CC [M]  /var/lib/dkms/aiy-voicebonnet-soundcard/0.1/build/snd-aiy-voicebonnet.o
+  
   CC [M]  /var/lib/dkms/aiy-voicebonnet-soundcard/0.1/build/snd-soc-bcm2835-i2s.o
   CC [M]  /var/lib/dkms/aiy-voicebonnet-soundcard/0.1/build/rt5645.o
   CC [M]  /var/lib/dkms/aiy-voicebonnet-soundcard/0.1/build/rl6231.o
